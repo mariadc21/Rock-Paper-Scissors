@@ -46,8 +46,9 @@ document.querySelector('.shoot').addEventListener('click', function(){
      document.querySelector('.compWin').textContent= (`🏅Computer score is ${scoreC++}🏅`);
  }else if (player ==='SCISSORS' && comp=='SCISSORS') {
     document.querySelector('.winLoss').textContent=(`It's a tie 🤝`);
-    }
- 
+//  } else if (player ==='PAPER' || player==='ROCK' || player==="SCISSORS" ){
+//     document.querySelector('.youChose').textContent= (`You didn't Rock, paper, or Scissors. Try Again👎`);
+ }
 });
  
 
