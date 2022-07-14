@@ -55,7 +55,7 @@ document.querySelector('.reset').addEventListener('click', function () {
     score = 1;
     scoreC= 1;
     document.querySelector('.playerWin').textContent = "🏅You haven't won any yet🏅";
-    document.querySelector('.compWin').textContent = "🏅You haven't won any yet🏅";
+    document.querySelector('.compWin').textContent = "🏅Computer hasn't won any yet🏅";
     document.querySelector('.winLoss').textContent=('');
     document.querySelector('.playerChose').tectContent=("")
 });
