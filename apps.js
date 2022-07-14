@@ -1,8 +1,8 @@
-var iNumber = Math.trunc(Math.random()*3)+1;
-let y= parseInt(iNumber);
+// var iNumber = Math.trunc(Math.random()*3)+1;
+// let y= parseInt(iNumber);
 function computerchoice() {
     let item =['Null','ROCK','PAPER','SCISSORS' ];
-    // var iNumber = Math.trunc(Math.random()*3)+1;
+    var iNumber = Math.trunc(Math.random()*3)+1;
     return (`${item[(iNumber)]}`);
 }
 // was going to try and add picture of chosen item
@@ -47,6 +47,7 @@ document.querySelector('.shoot').addEventListener('click', function(){
  }else if (player ==='SCISSORS' && comp=='SCISSORS') {
     document.querySelector('.winLoss').textContent=(`It's a tie 🤝`);
     }
+ 
 });
  
 
@@ -54,6 +55,7 @@ document.querySelector('.reset').addEventListener('click', function () {
     score = 1;
     scoreC= 1;
     document.querySelector('.playerWin').textContent = "🏅You haven't won any yet🏅";
+    document.querySelector('.compWin').textContent = "🏅You haven't won any yet🏅";
     document.querySelector('.winLoss').textContent=('');
     document.querySelector('.playerChose').tectContent=("")
 });
