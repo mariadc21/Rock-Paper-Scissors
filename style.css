@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(194,214,234);
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+h1{
+    font-size: 3em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 
+    0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 
+ 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 
+ 0 22px 30px rgba(0,0,0,0.9);
+}
+h3{
+    font-size: 1.6em;
+    text-shadow: #e0e0e0 1px 1px 0;
+}
+p{
+    color: whitesmoke;
+}
+.welcome {
+    background-image: url("https://i0.wp.com/ungroovygords.com/wp-content/uploads/2022/03/5777384.png?fit=775%2C436&ssl=1");
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 55em;
+    height: 55em;
+    border-width: 15px;
+    border-style: ridge;
+    border-color: rgb(89,110,139);
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    color: rgb(176,115,39);
+}
+h3{
+    font-size: 1.6em;
+    text-shadow: #e0e0e0 1px 1px 0;
+}
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3em  24em;
+    grid-template-areas: 
+    "left-column right-column";
+    background-color: rgb(140,166,181);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20em;
+    border-width: 15px;
+    border-style: ridge;
+    border-color: rgb(141,153,186);
+}
+.player{
+    border-width: 11px;
+    border-style: double;
+    border-color:rgb(38,63,118);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 15em;
+}
+.computer{
+    border-width: 11px;
+    border-style: double;
+    border-color:rgb(38,63,118);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 15em;
+}
+.results{
+    grid-template-areas: 
+    "left-column right-column";
+    background-color: rgb(140,166,181);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 7em;
+    border-width: 15px;
+    border-style: ridge;
+    border-color: rgb(141,153,186);
+}
+/* button {
+ font-size: 1.5em;
+}  */
