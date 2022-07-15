@@ -15,8 +15,8 @@ function computerchoice() {
 let score = 1
 let scoreC = 1
 document.querySelector('.shoot').addEventListener('click', function(){
- let player1 = (document.querySelector('.playerChose').value);
- let player = player1.toUpperCase();
+ let player = (document.querySelector('.playerChose1').value);
+//  let player = player1.toUpperCase();
  document.querySelector('.youChose').textContent= player;
  let comp = document.querySelector('.compChose').textContent=computerchoice();
 
